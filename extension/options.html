@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tripwire options</title>
+    <script src="options.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Tripwire options</h1>
+      <form id="options-form">
+        <p>
+          <label for="ollama-url">Ollama URL</label>
+          <input id="ollama-url" name="ollamaUrl" type="url" value="http://localhost:11434" required>
+        </p>
+        <p>
+          <label for="model">Model</label>
+          <input id="model" name="model" type="text" value="gpt-oss:20b" required>
+        </p>
+        <button id="save" type="submit" disabled>Save</button>
+        <p id="status" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+  </body>
+</html>

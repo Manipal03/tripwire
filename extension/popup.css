@@ -1,0 +1,29 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #111827;
+  color: #f3f4f6;
+}
+
+body {
+  width: 360px;
+  margin: 0;
+}
+
+main {
+  padding: 24px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 24px;
+}
+
+#status {
+  margin: 0;
+  padding: 16px;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  background: #1f2937;
+  color: #86efac;
+}
